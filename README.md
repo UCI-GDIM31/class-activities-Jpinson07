@@ -4,7 +4,9 @@
 Hello World!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+#1 r, g, and b are float variables because the color is determined by the decimal because that is the parameters that it was given that as the decimal increases the brightness increases or decreases. 
+#2 The _bounce variable is an int because the bounce increases by a whole number since you can't get half a bounce so it increases only by a whole number. 
+#3 It says error CS1002:; expected
 
 ## Open-Source Assets
 ### W1
