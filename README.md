@@ -28,3 +28,12 @@ Line 32: This line changes the __isGrounded member variable to false.
 
 1.The solution I came up with for the collider activity is I added a rigidbody to the soccerball and cat because when adding rigidbody to both it allows them to interact with each other because they both are now able to interact with each other.I added is trigger to the goal so when the ball passes through it allows for a celebration.
 2.My game did not work perfectly the first I tested it because the colliders were not interacting with each other because I put gravity on and the collider was too large so the cat was not interacting with the ball.
+
+### W5
+1.How is transform.Translate () method used? It is a method that calls upon the transform input and see how far it is going to move.
+Is vector ever overkill to use in a videogame? It is never overkill.
+
+DeerW5 class
+The member variables this class needs are transform and NavMeshAgent
+The methods this class needs is start () and update ()s
+The start method begins creating the component NavMeshAgent and then each frame using the update method it sets the destination of the NavMeshAgent.
