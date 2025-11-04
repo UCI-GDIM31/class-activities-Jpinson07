@@ -37,3 +37,10 @@ DeerW5 class
 The member variables this class needs are transform and NavMeshAgent
 The methods this class needs is start () and update ()s
 The start method begins creating the component NavMeshAgent and then each frame using the update method it sets the destination of the NavMeshAgent.
+
+### W6
+1. Make the bats be able to chase the player and then stop chasing the player. If the bat is in distance of the player it will chase the player.
+2. The member variables that this class needs is a speed variable. 
+3. The methods it needs are two methods that you have to create yourself which is start chasing and end chasing and also an update method as well.
+4. The methods allow the bats to chase the player if the player is in range but if the bats move out of range then they stop chasing the player. 
+https://docs.google.com/document/d/1v9abHr0z2I_ynx3ik8Slda9mncvm8eCeKY5KIBUfL-c/edit?usp=sharing
