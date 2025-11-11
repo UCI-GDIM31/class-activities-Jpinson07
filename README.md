@@ -44,3 +44,7 @@ The start method begins creating the component NavMeshAgent and then each frame 
 3. The methods it needs are two methods that you have to create yourself which is start chasing and end chasing and also an update method as well.
 4. The methods allow the bats to chase the player if the player is in range but if the bats move out of range then they stop chasing the player. 
 https://docs.google.com/document/d/1v9abHr0z2I_ynx3ik8Slda9mncvm8eCeKY5KIBUfL-c/edit?usp=sharing
+
+### W7
+1. What was wrong with step 2 is that the transform.position is used for direct positioning which doesn't work with what we want with movement. However, this is where transform.translate as it helps for moving in the local space of the scene. It works on object space and will actually apply with whatever movement you wanna apply relative to the space. On the other hand, transform.position does not take this into account.
+https://docs.google.com/document/d/1FI6_2kwBTTaRBxAmNkWfBAGIedIvuOI0K7P5KUZhsA8/edit?usp=sharing
